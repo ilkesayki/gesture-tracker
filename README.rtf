@@ -1,0 +1,180 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2865
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\fswiss\fcharset0 Arial-BoldMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue233;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c93333;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{hyphen\}}{\leveltext\leveltemplateid102\'01\uc0\u8259 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid301\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs36 \cf0 \expnd0\expndtw0\kerning0
+\uc0\u55357 \u56720 
+\f1\b  Gesture Tracker - \'93Monkey Meme from TikTok\'94
+\f0\b0\fs24 \
+Real-time hand and face gesture detection using Python and OpenCV.\
+This project uses your webcam to recognize different gestures \'97 like 
+\f1\b pointing
+\f0\b0 , 
+\f1\b face proximity
+\f0\b0 , and 
+\f1\b idle state
+\f0\b0  \'97 and triggers actions or visual changes based on them.\
+\
+
+\f1\b\fs28 \uc0\u9881 \u65039  Requirements
+\f0\b0\fs24 \
+\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 Before running the project, make sure you have the following installed:\
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f1\b \cf0 1. Python\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0 \cf0 You need 
+\f1\b Python 3.8 or higher
+\f0\b0 .\uc0\u8232 Check your version:\
+python3 --version\
+\pard\pardeftab720\partightenfactor0
+\cf0 If you don\'92t have it, install from {\field{\*\fldinst{HYPERLINK "https://www.python.org/downloads/"}}{\fldrslt \cf3 \ul \ulc3 python.org/downloads}}.\
+\
+\pard\pardeftab720\sa319\partightenfactor0
+
+\f1\b \cf0 2. Create and Activate a Virtual Environment\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0 \cf0 We recommend using a virtual environment (so dependencies don\'92t conflict):\
+\pard\pardeftab720\partightenfactor0
+\cf0 python3 -m venv ~/venvs/gesture312\
+source ~/venvs/gesture312/bin/activate\
+\
+
+\f1\b 3. Install Dependencies\
+\
+
+\f0\b0 pip install opencv-python mediapipe numpy absl-py
+\f1\b \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0 \cf0 \
+\pard\pardeftab720\sa280\partightenfactor0
+
+\fs28 \cf0 \uc0\u55357 \u56507 
+\f1\b  How to Run\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f0\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+Clone this repository:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\cf0 		git clone https://github.com/ilkesayki/gesture-tracker.git\
+		cd gesture-tracker\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\cf0 	2	Activate your virtual environment:\
+		source ~/venvs/gesture312/bin/activate\
+	3	Run the script:\
+		python gesture_tracker.py\
+	4	If camera access is denied on macOS:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\sl360\slmult1\partightenfactor0
+\ls2\ilvl1\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}\expnd0\expndtw0\kerning0
+Go to 
+\f1\b System Settings \uc0\u8594  Privacy & Security \u8594  Camera
+\f0\b0 \
+\ls2\ilvl1\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8259 	}\expnd0\expndtw0\kerning0
+Enable access for \'93Visual Studio Code\'94 or \'93Terminal\'94.\
+\pard\tx720\tx1440\pardeftab720\sl360\slmult1\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf0 \uc0\u55358 \u56809 
+\f1\b  VS Code Setup (Important)\
+	
+\f0\b0\fs24 If you use 
+\f1\b Visual Studio Code
+\f0\b0 , make sure VS Code uses the correct Python interpreter from your virtual environment.
+\f1\b\fs28 \
+
+\f0\b0\fs24 \
+	Create this file:\
+	.vscode/settings.json\
+	\
+	Add this content:\
+	\{\
+  	"python.defaultInterpreterPath": "/Users/ilkesayki/venvs/gesture312/bin/python"\
+	\}\
+	\
+	\uc0\u55357 \u56481  Without this, VS Code may try to run with the system Python\
+\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf0 Features\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 \uc0\u9989  Detects 
+\f1\b three main gestures
+\f0\b0 :\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls3\ilvl0\cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\uc0\u9757 \u65039  
+\f1\b Point Gesture
+\f0\b0  \'96 when the index finger is up\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\uc0\u55357 \u56387  
+\f1\b Face Proximity Gesture
+\f0\b0  \'96 when the finger is close to the face\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\uc0\u55357 \u56886  
+\f1\b Idle Gesture
+\f0\b0  \'96 when no significant hand movement is detected\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}
+\f1\b Middle Finger
+\f0\b0  - \expnd0\expndtw0\kerning0
+when the middle finger is up\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \uc0\u9989  Real-time feedback with live video display\u8232 \u9989  Multi-camera support (switch between available cameras)\u8232 \u9989  Secondary window displaying 
+\f1\b different images or actions
+\f0\b0  depending on the gesture\
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf0 \uc0\u55358 \u56964 
+\f1\b  Customization
+\f0\b0\fs24 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\cf0 	You can fine-tune gesture recognition by adjusting thresholds in the code:\
+	\
+	# Example: change proximity sensitivity\
+	FACE_HAND_RATIO_THRESHOLD = 0.25\
+\
+	This value determines how close the finger must be to your face to trigger the "proximity" gesture.\
+\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\fs28 \cf0 \uc0\u55358 \u56809 
+\f1\b  Planned Features\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls4\ilvl0
+\f0\b0\fs24 \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\uc0\u9995  Add more gesture types \
+\ls4\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\uc0\u55358 \u56991  Better GUI window for gesture-based photo switching\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\uc0\u55357 \u56567  Gesture-based screenshot capture\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\uc0\u55356 \u57269  Integration with music or volume control\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\fs28 \cf0 \uc0\u55358 \u56785 \u8205 \u55357 \u56507 
+\f1\b  Author\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 \uc0\u304 lke Sayk\u305 
+\f0\b0 \uc0\u8232 RWTH Aachen \'96 2025\u8232 \u55357 \u56492  Feel free to open an issue or contribute!\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\cf0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\cf0 \
+}
