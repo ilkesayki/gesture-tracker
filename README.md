@@ -5,25 +5,25 @@ This project uses your webcam to recognize different gestures — like pointing,
 ⚙️ Requirements
 
 Before running the project, make sure you have the following installed:
-1. Python  
+    1   Python  
 
-You need Python 3.8 or higher. Check your version:
+        -You need Python 3.8 or higher. Check your version:
 
-python3 --version
+        python3 --version
 
-If you don’t have it, install from python.org/downloads.
+        -If you don’t have it, install from python.org/downloads.
 
-2. Create and Activate a Virtual Environment  
+    2   Create and Activate a Virtual Environment  
 
-We recommend using a virtual environment (so dependencies don’t conflict):  
+        -We recommend using a virtual environment (so dependencies don’t conflict):  
 
-python3 -m venv ~/venvs/gesture312  
+        python3 -m venv ~/venvs/gesture312  
 
-source ~/venvs/gesture312/bin/activate  
+        source ~/venvs/gesture312/bin/activate  
 
-3. Install Dependencies
+    3   Install Dependencies
 
-pip install opencv-python mediapipe numpy absl-py
+        pip install opencv-python mediapipe numpy absl-py
 
 💻 How to Run  
 
@@ -65,7 +65,7 @@ pip install opencv-python mediapipe numpy absl-py
 
 Features  
 
-✅ Detects three main gestures:  
+✅ Detects four main gestures:  
 
     •    ☝️ Point Gesture – when the index finger is up
     
