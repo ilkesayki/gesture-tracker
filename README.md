@@ -4,7 +4,8 @@ This project uses your webcam to recognize different gestures — like pointing,
 
 ⚙️ Requirements
 
-Before running the project, make sure you have the following installed:
+Before running the project, make sure you have the following installed:  
+    
     1   Python  
 
         -You need Python 3.8 or higher. Check your version:
